@@ -82,7 +82,7 @@ namespace WikiaFileTransfer.ViewModels
 
         private async Task UploadFiles()
         {
-            if (App.Client == null)
+            if (RootViewModel.Client == null)
             {
                 Status = "Impossible to upload, not connected.";
                 StatusType = false;
@@ -95,7 +95,7 @@ namespace WikiaFileTransfer.ViewModels
                 StatusType = true;
 
                 for (var i = 0; i < 3 && editToken == null; i++)
-                    editToken = await Utility.RequestEditToken(App.Client);
+                    editToken = await Utility.RequestEditToken(RootViewModel.Client);
 
                 if (editToken == null)
                 {
@@ -124,7 +124,7 @@ namespace WikiaFileTransfer.ViewModels
 
                 try
                 {
-                    upload = new Upload(App.Client);
+                    upload = new Upload(RootViewModel.Client);
                     await Utility.UploadFileAsync(file.Filename, editToken, localIgnoreWarnings, upload);
                 }
                 catch (Exception ex)

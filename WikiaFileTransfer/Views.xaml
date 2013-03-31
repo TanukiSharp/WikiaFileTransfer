@@ -90,7 +90,19 @@
     </DataTemplate>
 
     <DataTemplate x:Key="RootView">
-        <ContentControl Content="{Binding Upload, Mode=OneTime}" ContentTemplate="{StaticResource UploadView}" Focusable="False"/>
+        <DockPanel LastChildFill="True">
+            <Menu DockPanel.Dock="Top" FontSize="14">
+                <MenuItem Header="_File">
+                    <MenuItem Header="Connect..." Command="{Binding ConnectCommand, Mode=OneTime}"/>
+                    <Separator/>
+                    <MenuItem Header="Close" Command="{Binding CloseCommand, Mode=OneTime}"/>
+                </MenuItem>
+                <MenuItem Header="_?">
+                    <MenuItem Header="_About" Command="{Binding AboutCommand, Mode=OneTime}"/>
+                </MenuItem>
+            </Menu>
+            <ContentControl Content="{Binding Upload, Mode=OneTime}" ContentTemplate="{StaticResource UploadView}" Focusable="False"/>
+        </DockPanel>
     </DataTemplate>
 
 </ResourceDictionary>

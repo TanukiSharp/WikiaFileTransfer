@@ -15,6 +15,5 @@ namespace WikiaFileTransfer
     /// </summary>
     public partial class App : Application
     {
-        public static HttpClient Client;
     }
 }
