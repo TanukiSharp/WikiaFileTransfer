@@ -36,11 +36,11 @@
   <ItemGroup>
     <Reference Include="CoreToolKit, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Dependenncies\CoreToolKit.dll</HintPath>
+      <HintPath>..\Dependencies\CoreToolKit.dll</HintPath>
     </Reference>
     <Reference Include="PresentationToolKit, Version=1.0.4837.40410, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Dependenncies\PresentationToolKit.dll</HintPath>
+      <HintPath>..\Dependencies\PresentationToolKit.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -54,7 +54,7 @@
     </Reference>
     <Reference Include="WikiaLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Dependenncies\WikiaLibrary.dll</HintPath>
+      <HintPath>..\Dependencies\WikiaLibrary.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
