@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikiaFileTransfer", "WikiaFileTransfer\WikiaFileTransfer.csproj", "{5C3504C2-0586-45E6-A3DF-E20387B8BF52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C3504C2-0586-45E6-A3DF-E20387B8BF52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C3504C2-0586-45E6-A3DF-E20387B8BF52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C3504C2-0586-45E6-A3DF-E20387B8BF52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C3504C2-0586-45E6-A3DF-E20387B8BF52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
